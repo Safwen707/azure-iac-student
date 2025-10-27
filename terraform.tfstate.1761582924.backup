@@ -1,0 +1,53 @@
+{
+  "version": 4,
+  "terraform_version": "1.9.8",
+  "serial": 2,
+  "lineage": "84bef8c6-15fa-57ef-073c-e4600db4ccac",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "azurerm_resource_group",
+      "name": "rg",
+      "provider": "provider[\"registry.terraform.io/hashicorp/azurerm\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "/subscriptions/d4766098-cffb-4cbd-bc57-ecac05f4e728/resourceGroups/rg-student-demo",
+            "location": "norwayeast",
+            "managed_by": "",
+            "name": "rg-student-demo",
+            "tags": {},
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo1NDAwMDAwMDAwMDAwLCJkZWxldGUiOjU0MDAwMDAwMDAwMDAsInJlYWQiOjMwMDAwMDAwMDAwMCwidXBkYXRlIjo1NDAwMDAwMDAwMDAwfSwic2NoZW1hX3ZlcnNpb24iOiIwIn0="
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "random_id",
+      "name": "suffix",
+      "provider": "provider[\"registry.terraform.io/hashicorp/random\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "b64_std": "9Gt/Xg==",
+            "b64_url": "9Gt_Xg",
+            "byte_length": 4,
+            "dec": "4100685662",
+            "hex": "f46b7f5e",
+            "id": "9Gt_Xg",
+            "keepers": null,
+            "prefix": null
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
