@@ -1,0 +1,15 @@
+# Fichiers Terraform
+**/.terraform/*
+!**.terraform/plugins
+
+# Fichiers d'état
+*.tfstate
+*.tfstate.*
+terraform.tfstate.backup
+
+# Fichiers de crash
+crash.log
+crash.*.log
+
+# Fichiers de variables
+*.tfvars
